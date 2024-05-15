@@ -136,6 +136,13 @@ ul li:hover a {
 	margin-top: 0px;
 }
 
+/*Other pages*/
+.narrow_onecol {
+	text-align: justify;
+	vertical-align: top;
+	padding-left: 220px;
+	padding-right: 220px;
+}
 
 /* Stats Gallery */
 .stats {
@@ -356,6 +363,12 @@ nav ul li {
 	padding-bottom: 0px;
 	padding-left: 5px;
 }
+
+.narrow_onecol {
+	text-align: center;
+	width: 100%;
+}
+
 .thumbnail {
 	width: 100%;
 }
@@ -519,6 +532,11 @@ nav ul li {
 }
 
 .footer_column {
+	width: 100%;
+}
+
+.narrow_onecol {
+	text-align: center;
 	width: 100%;
 }
 
