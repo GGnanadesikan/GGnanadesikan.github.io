@@ -319,7 +319,8 @@ footer {
 
 /* Bibliographic information for Publications */
 .bibliography {
-    padding-left: 30px;
+    padding-left: 100px;
+	padding-right: 100px;
     text-indent: -30px;
 }
 
