@@ -1,21 +1,22 @@
 @charset "UTF-8";
-
-* {
-    margin: 0px;
-    padding: 0px;
-    }
-
-
 /* Body */
 body {
 	font-family: source-sans-pro;
 	background-color: #FFFFFF;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
 	font-style: normal;
 	font-weight: 500;
+}
+/* Container */
+.container {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-
+	height: 1000px;
+	background-color: #FFFFFF;
 }
 
 	/* unvisited link */
@@ -38,94 +39,68 @@ a:active {
     color: #F19E1F;
 }
 
-.toppart {
-	display: flex;
-    flex-direction: column;
-}
-
 /* Navigation */
 header {
+	width: 100%;
+	height: 5%;
 	background-color: #0C234B;
 	border-bottom: 1px solid #AB0520;
-	padding-top: 1.0rem;
-	padding-bottom: 0.3rem;
 }
-
-
-#logo {
-	color: #FFFFFF;
+.logo {
+	color: #fff;
 	font-weight: bold;
 	text-align: undefined;
 	width: 10%;
 	float: left;
-	margin-left: 1.8rem;
+	margin-top: 15px;
+	margin-left: 25px;
 	letter-spacing: 4px;
 }
-
 nav {
 	float: right;
-	width: 70%;
-	text-align: center;
-	margin-right: 0.8rem;
+	width: 80%;
+	text-align: right;
+	margin-right: 25px;
 }
-
-#navlist {
+header nav ul {
 	list-style: none;
-	display: flex;
-	flex-wrap: wrap;
-    justify-content: space-evenly;
-	font-size: 0.9rem;
-	letter-spacing: 2px;
-	font-weight: bold;
-	}
-	
-nav ul li {
-margin-right: 0.5rem;
-margin-left: 0.5rem;
-margin-bottom: 0.7rem;
+	float: right;
 }
-
-
-/* nav ul li {
+nav ul li {
 	float: left;
+	color: #FFFFFF;
 	font-size: 14px;
 	text-align: left;
 	margin-right: 25px;
 	letter-spacing: 2px;
 	font-weight: bold;
 	transition: all 0.3s linear;
-	color:#6DC5D3;
 }
-*/
-
 ul li a {
 	color: #FFFFFF;
 	text-decoration: none;
 }
-
 ul li:hover a {
 	color: #2C9AB7;
 }
-
-/* Hero Section */
-.hero {
-	background-image: url('../images/Madoni_banner.jpg');
-	background-size: cover;
-	background-position: center;
-	padding-top: 180px;
-	padding-bottom: 145px;
-}
-
 .hero_header {
 	color: #FFFFFF;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 100px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
 	letter-spacing: 4px;
 }
 
+/* Hero Section */
+.hero {
+	background-image: url('../images/Madoni_banner.jpg');
+	background-size: cover;
+	background-position: center ;
+	padding-top: 130px;
+	padding-bottom: 130px;
+}
 .light {
 	font-weight: bold;
 	color: #717070;
@@ -140,50 +115,7 @@ ul li:hover a {
 }
 /* About Section */
 
-.intro {
-	display: flex;
-	flex-wrap: wrap;
-	margin-top: 4.3rem;
-	margin-bottom: 3rem;
-	margin-right: 3.5%;
-	margin-left: 3.5%;
-
-}
-
-article {
-    display: -moz-flex;
-	display: flex;
-    flex-direction: column;
-    align-items: center;
-	flex: 1;
-}
-
-article img {
-	height: 45vh;
-}
-
-.about {
-	padding-left: 2.5%;
-	padding-right: 2.5%;
-
-}
-
 .text_column {
-	text-align: justify;
-	vertical-align: top;
-	font-weight: bold;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-	line-height: 1.5rem;
-
-}
-
-#current {
-min-width: 32%;
-}
-
-
-/*.text_column {
 	text-align: justify;
 	vertical-align: top;
 	font-weight: bold;
@@ -194,9 +126,7 @@ min-width: 32%;
 	padding-bottom: 20px;
 	color: #434343;
 }
-*/
 
-/*
 .about {
 	padding-left: 20px;
 	padding-right: 20px;
@@ -205,7 +135,6 @@ min-width: 32%;
 	background-color: #FFFFFF;
 	margin-top: 0px;
 }
-*/
 
 /*Other pages*/
 .narrow_onecol {
@@ -232,7 +161,6 @@ min-width: 32%;
 	margin-top: -5px;
 	margin-bottom: 0px;
 }
-
 .thumbnail {
 	width: 25%;
 	text-align: center;
@@ -261,7 +189,6 @@ min-width: 32%;
 	height: 600px;
 	background-size: cover;
 	background-repeat: no-repeat;
-	
 }
 .banner2 {
 	background-color: #2D9AB7;
@@ -292,7 +219,7 @@ min-width: 32%;
 
 
 /* More info */
-/*footer {
+footer {
 	background-color: #FFFFFF;
 	margin-left: 10%;
 	margin-right: 10%;
@@ -300,36 +227,10 @@ min-width: 32%;
 	font-weight: 500;
 	text-align: center;
 }
-*/
-
-
-.news {	
-	background-color: #FFFFFF;
-	margin-left: 10%;
-	margin-right: 10%;
-	padding-bottom: 8vh;
-	font-weight: 500;
-}
-
-
 .footer_column {
-	padding-top: 8vh;
+text-align: left;
+	padding-top: 30px;
 	max-width: 100%;
-}
-
-
-.footer_column  h3 {
-	color: #B3B3B3;
-	text-align: center;
-}
-
-.footer_column  p {
-	padding-top: 2vh;
-	padding-left: 3vh;
-	padding-right: 3vh;
-	text-align: justify;
-	line-height: 1.7rem;
-	font-weight: normal;
 }
 
 .footer_box {
@@ -342,8 +243,10 @@ border-radius: 25px;
 	margin-top: 20px;
 }
 
-
-
+footer  h3 {
+	color: #B3B3B3;
+	text-align: center;
+}
 footer  p {
 	color: #404040;
 	background-color: #FFFFFF;
@@ -354,6 +257,13 @@ footer  p {
 	max-width: 300px;
 	max-height: 300px;
 	align-content: center;
+}
+footer  p {
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: justify;
+	line-height: 25px;
+	font-weight: normal;
 }
 
 .button {
@@ -400,8 +310,9 @@ footer  p {
 	background-image: url(/images/pattern.png);
 	background-repeat: repeat;
 }
-
-
+footer {
+	display: inline-block;
+}
 .hidden {
 	display: none;
 }
@@ -414,7 +325,7 @@ footer  p {
 }
 
 
-/* Mobile 
+/* Mobile */
 @media (max-width: 320px) {
 .logo {
 	width: 100%;
@@ -513,7 +424,7 @@ nav ul li {
 }
 }
 
-/* Small Tablets 
+/* Small Tablets */
 @media (min-width: 321px)and (max-width: 767px) {
 .logo {
 	width: 100%;
@@ -630,7 +541,7 @@ nav ul li {
 	width: 100%;
 }
 
-/* Small Desktops 
+/* Small Desktops */
 @media (min-width: 768px) and (max-width: 1096px) {
 
 
@@ -662,4 +573,3 @@ nav ul li {
 
 
 }	
-*/
