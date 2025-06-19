@@ -19,14 +19,17 @@
     <![endif]-->
 </head>
 <body>
-<!-- Main Container -->
-<div class="container"> 
-  <!-- Navigation -->
-  <header> <a href="">
-    <h4 class="logo">Gita</h4>
+<section class="toppart">
+  <!-- Header and Navigation -->
+  <header>
+  <div>
+  <a href="">
+    <h4 id="logo">Gita</h4>
   </a>
+  </div>
+  <div>
     <nav>
-      <ul>
+      <ul id="navlist">
         <li><a href="index.html" style="color:#6DC5D3">HOME</a></li>
 		<li><a href="publications.html" style="color:#6DC5D3">PUBLICATIONS</a></li>
 		<li><a href="teaching.html" style="color:#6DC5D3">TEACHING</a></li>		
@@ -37,31 +40,30 @@
 		<li><a href="contact.html" style="color:#6DC5D3">CONTACT</a></li>
       </ul>
     </nav>
-  </header>
+	</div>
+	  </header> 
+
   <!-- Hero Section -->
-  <section class="hero" id="hero">
+  <div class="hero" id="hero">
     <h2 class="hero_header">Dr. Gitanjali E. Gnanadesikan</h2>
     <p class="tagline">FIRST IRACDA Postdoctoral Fellow</p>
-  </section>
+  </div>
+</section>
+  <main>
 
-<section class="about">
-<table class="about">
-<tr>
-    <th><img src="images/ACCCLogo_Square.png" width="70%" height="auto" alt="UA Logo" align="bottom" hspace="15%"/></th>
-<th><img src="images/Gnanadesikan_Head.jpg" width="70%" height="auto" alt="Headshot" align="middle" hspace="15%"/></th>
-<th><img src="images/SoCap.png" width="50%" height="auto" alt="SoCAP Logo" align="middle" hspace="15%"/></th>
-
-</tr>
-<tr>
-  <td class="text_column">I am currently a <a href="https://web.archive.org/web/20250502054556/https://med.emory.edu/education/postdoctoral-training/first/about-us/index.html">FIRST (IRACDA)</a> postdoctoral fellow at <a href="https://emory.edu">Emory University</a>, studying social cognition and oxytocin in capuchin monkeys. Unfortunately, the <a href="https://web.archive.org/web/20250126152251/https://www.nigms.nih.gov/training/careerdev/pages/twdinstres.aspx">IRACDA program</a> was terminated in April 2025 for not aligning with the new priorities of the NIH, and I am on the job market. I earned my PhD from the <a href="https://www.arizona.edu">University of Arizona</a> in the <a href="https://anthropology.arizona.edu">School of Anthropology</a>, where I worked in the <a href="https://dogs.arizona.edu">Arizona Canine Cognition Center</a>. My dissertation was entitled <i>Genetic and Endocrine Contributions to Behavior and Cognition in a Working Dog Population</i> and was conducted in close collaboration with <a href="https://canine.org"> Canine Companions</a>. Before graduate school, I spent a year teaching English and music in an elementary school in rural China; I have also worked as a freelancer editor, substitute teacher, and choral singer.</td>
-
-<td class="text_column">In the process of trying to measure neuropeptides in study samples during graduate school, I developed and validated improved methods of measuring oxytocin in a variety of species (canines, mice, humans, lemurs & titi monkeys) and biological matrices (blood plasma, urine, saliva), working extensively in the <a href="https://leepanthropology.weebly.com/">Laboratory for the Evolutionary Endocrinology of Primates (LEEP)</a>. I also served as a project coordinator for <a href="https://manydogsproject.github.io/md1/">ManyDogs</a>, where I took the lead on the experimental methods for our first collaborative project exploring the importance of ostensive cues for dogs using human gestural communication.</td>
-
-<td class="text_column">In 2023, I moved to Georgia to start my postdoctoral work with Marcela Benítez in the <a href="http://www.marcelabenitez.com/socap-lab.html">Social Cognition & Primate Behavior Lab</a>, part of the <a href="https://apes.emory.edu/"> APE lab in the Emory Anthropology Department</a>. Here, I am building on my work measuring neuropeptides to study the role of oxytocin in supporting social behavior and cognition in capuchin monkeys. Capuchins are particularly social and cooperative and are one of many new world monkey species to carry a novel form of oxytocin. I am also affiliated with the <a href="https://lrc.gsu.edu/">Language Research Center at Georgia State University</a>, which is home to the tufted capuchins (<i>Sapajus apella</i>) who are the focus of my postdoctoral research.</td>
-
-
-</tr>
-</table>
+<section class="intro">
+<article class="about" id="current">
+  <div><img src="images/ACCCLogo_Square.png"  alt="UA Logo"  hspace="15%" /></div>
+  <div class="text_column">I am currently a <a href="https://web.archive.org/web/20250502054556/https://med.emory.edu/education/postdoctoral-training/first/about-us/index.html">FIRST (IRACDA)</a> postdoctoral fellow at <a href="https://emory.edu">Emory University</a>, studying social cognition and oxytocin in capuchin monkeys. Unfortunately, the <a href="https://web.archive.org/web/20250126152251/https://www.nigms.nih.gov/training/careerdev/pages/twdinstres.aspx">IRACDA program</a> was terminated in April 2025 for not aligning with the new priorities of the NIH, and I am on the job market. I earned my PhD from the <a href="https://www.arizona.edu">University of Arizona</a> in the <a href="https://anthropology.arizona.edu">School of Anthropology</a>, where I worked in the <a href="https://dogs.arizona.edu">Arizona Canine Cognition Center</a>. My dissertation was entitled <i>Genetic and Endocrine Contributions to Behavior and Cognition in a Working Dog Population</i> and was conducted in close collaboration with <a href="https://canine.org"> Canine Companions</a>. Before graduate school, I spent a year teaching English and music in an elementary school in rural China; I have also worked as a freelancer editor, substitute teacher, and choral singer.</div>
+</article>
+<article class="about" id="gradschool">
+<div><img src="images/Gnanadesikan_Head.jpg"  alt="Headshot"  hspace="15%"/></div>
+<div class="text_column">In the process of trying to measure neuropeptides in study samples during graduate school, I developed and validated improved methods of measuring oxytocin in a variety of species (canines, mice, humans, lemurs & titi monkeys) and biological matrices (blood plasma, urine, saliva), working extensively in the <a href="https://leepanthropology.weebly.com/">Laboratory for the Evolutionary Endocrinology of Primates (LEEP)</a>. I also served as a project coordinator for <a href="https://manydogsproject.github.io/md1/">ManyDogs</a>, where I took the lead on the experimental methods for our first collaborative project exploring the importance of ostensive cues for dogs using human gestural communication.</div>
+</article>
+<article class="about" id="socap">
+<div><img src="images/SoCap.png"  alt="SoCAP Logo"  hspace="15%"/></div>
+<div class="text_column">In 2023, I moved to Georgia to start my postdoctoral work with Marcela Benítez in the <a href="http://www.marcelabenitez.com/socap-lab.html">Social Cognition & Primate Behavior Lab</a>, part of the <a href="https://apes.emory.edu/"> APE lab in the Emory Anthropology Department</a>. Here, I am building on my work measuring neuropeptides to study the role of oxytocin in supporting social behavior and cognition in capuchin monkeys. Capuchins are particularly social and cooperative and are one of many new world monkey species to carry a novel form of oxytocin. I am also affiliated with the <a href="https://lrc.gsu.edu/">Language Research Center at Georgia State University</a>, which is home to the tufted capuchins (<i>Sapajus apella</i>) who are the focus of my postdoctoral research.</div>
+</article>
 </section>
 
 
@@ -70,11 +72,12 @@
     <h2 class="parallax"></h2>
     <p class="parallax_description"></p>
   </section>
+  
   <!-- More Info Section -->
-  <footer>
+  <section class="news">
  <div class="footer_column">
       <h3>NEWS</h3>
-<p>May 2025: I was profiled in the Norwegian newspaper Khrono for a piece about cuts to science funding in the U.S. The article is in Norwegian, but you can <a href="https://www.khrono.no/forskningsmidlene-forsvant-over-natta-slik-er-trumps-usa-for-forskere/969117">take a look here</a>.</p>	  
+<p>May 2025: I was profiled in the Norwegian newspaper <i>Khrono</i> for a piece about cuts to science funding in the U.S. The article is in Norwegian, but you can <a href="https://www.khrono.no/forskningsmidlene-forsvant-over-natta-slik-er-trumps-usa-for-forskere/969117">take a look here</a>.</p>	  
 	  
 <p>April 2025: Upsettingly, the NIH has terminated the nationwide IRACDA program, including my fellowship at Emory. I wrote <a href="https://curiouser-gita.blogspot.com/2025/04/nih-cuts-priorities-and-we-regret-to.html">a blog post</a> about why the current attacks on science are devastating, not just to me and my colleagues, but to everyone.</p>
 	  
@@ -136,23 +139,25 @@
 
 <p>July 2018: My summer research with wolf pups at the Wildlife Science Center in Minnesota was <a href="http://www.startribune.com/what-separates-dogs-and-wolves-researchers-journey-to-anoka-county-to-find-out/488199251/">written up in the <i>Star Tribune</i></a>. Hope you enjoy the story and pictures!</p>
    </div>
-</footer>
+</section>
 
   <section class="banner2">
     <h2 class="parallax"></h2>
     <p class="parallax_description"></p>
   </section>
-<footer>
+  
+<section class="news">
   <div class="footer_column">
 	<h3>BLOG</h3>
       <p>Check out <a href="https://curiouser-gita.blogspot.com/">my travel and photo blog <em>Curiouser and Curiouser</em></a>, which I update sporadically. It includes more regular posts from <a href="https://curiouser-gita.blogspot.com/search/label/China">the year I taught in China</a> and <a href="https://curiouser-gita.blogspot.com/search/label/Panama">the semester I studied in Panama</a>, but also more recent posts on <a href= "https://curiouser-gita.blogspot.com/2019/03/wolf-puppies-finally.html">wolves</a>, <a href="https://curiouser-gita.blogspot.com/search/label/Arizona">Arizona</a>, <a href="https://curiouser-gita.blogspot.com/search/label/Birding">birding</a>, and other travel. I'm hoping to get back to blogging more regularly soon!</p>
    </div>
-</footer>
+</section>
 
-  </footer>
+  </main>
+
+  <footer>
   <!-- Copyrights Section -->
   <div class="copyright">&copy;2025 - <strong>Gitanjali E. Gnanadesikan</strong></div>
-</div>
-<!-- Main Container Ends -->
+  </footer>
 </body>
 </html>
