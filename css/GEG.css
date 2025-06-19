@@ -151,7 +151,8 @@ ul li:hover a {
 }
 
 article {
-    display: flex;
+    display: -moz-flex;
+	display: flex;
     flex-direction: column;
     align-items: center;
 	flex: 1;
@@ -260,6 +261,7 @@ min-width: 32%;
 	height: 600px;
 	background-size: cover;
 	background-repeat: no-repeat;
+	
 }
 .banner2 {
 	background-color: #2D9AB7;
